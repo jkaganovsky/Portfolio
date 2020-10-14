@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #eeeef7;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     background-image: url("https://media.giphy.com/media/dXKLXks7fK9qrRxbHF/giphy.gif");
 }
 
-nav {
+header nav {
     display: inline-block;
     background-color: #31343d;
     width: 100%;
@@ -50,3 +50,23 @@ header h2 {
     margin: 150px 30px 10px 80px;
 }
 
+.container {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.container h2 {
+    margin-left: 100px;
+    padding: 10px;
+    flex: left;
+    width: 20px;
+    vertical-align: text-bottom;
+}
+
+.container p {
+    padding: 0px 30px;
+    border-left-color: #31343d;
+    border-left-style: solid;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
