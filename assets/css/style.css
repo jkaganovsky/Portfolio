@@ -43,37 +43,49 @@ header nav a {
 }
 
 .self-portrait {
-    border-radius: 25%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 51%;
     width: 150px;
-    height: auto;
+    height: 150px;
     padding: 20px;
 }
 
 header h2 {
-    color: #445877;
+    color: #31343d;
     background-color: #92ccce;
     padding: 10px;
     font-size: 20px;
     margin: 0px 20px 20px;
 }
 
-.container {
-    display: flexbox;
-    flex-direction: column;
+.content {
+    display: flex;
+    padding: 20px;
 }
 
-.container h2 {
-    margin-left: 100px;
-    padding: 10px;
-    flex: left;
-    width: 20px;
-    vertical-align: text-bottom;
+.content h2 {
+    font-size: 36px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 0px 20px 20px 100px;
 }
 
-.container p {
-    padding: 0px 30px;
+.content aside {
+    padding: 0px 30px 20px;
     border-left-color: #31343d;
     border-left-style: solid;
-    margin-left: 20%;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside img {
+    border-color: #92ccce;
+    border-style: solid;
+    border-width: 5px;
+    max-height: 286px;
+}
+
+#main-project {
+    object-fit: none;
+    width: fit-content;
 }
