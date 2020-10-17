@@ -61,8 +61,7 @@ header h2 {
 
 .content {
     display: flex;
-    padding: 20px;
-    text-align: justify;
+    padding: 20px 0px 0px 0px;
 }
 
 .content h2 {
@@ -70,7 +69,7 @@ header h2 {
     width: 20%;
     text-align: right;
     margin-right: 20px;
-    padding: 0px 10px 20px 100px;
+    padding: 0px 10px 0px 100px;
     border-right-color: #31343d;
     border-right-style: solid;
 }
@@ -118,7 +117,6 @@ h3 {
     align-content: space-around;
     background-color: #eeeef7;
     flex-direction: row;
-
 }
 
 .project-info {
@@ -129,6 +127,14 @@ h3 {
     padding: 5px 5px 0px 0px;
 }
 
-.content .contacts {
+.contacts {
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contacts a {
+    padding: 20px;
+    justify-items: stretch;
 }
