@@ -15,26 +15,57 @@ This project will serve as the Portfolio I will be using for future job prospect
 
 ## Content and Description: CSS and HTML
 Here is my thought process for building this website:
-I. Container A: Header
-    A. Background
-    B. Links
-    C. Name
-    D. Title
+First container, I set as -
+* Container A: Header
+    - And then I've included the following within this container -
+    1. Background
+        * Main image background
+        * Background color
+        * Font-Family
+    1. Links
+        * href tags
+        * Alignment is fixed at the top-right of the page
+        * Links directly to the id tags on the body section
+        * Evenly spaced for readability
+    1. Name
+        * Set at a certain font-size
+        * Alignment is fixed at the top-left of the page
+        * Background and font color opposite that of Links
+    1. Title
+        * Same background and font color as Name
+        * Alignment is fixed on the bottom-right of the header
+        * Padding
+    1. Self-Portrait
+        * Styling different from a regular square block
 
-II. Container B: Body
-    A. About Me
-        1. Paragraph
-    B. Work
-        1. Images
-        2. Subtitles
-    C. Contact Me
-        1. Links
+HTML
+![html](./assets/images/headerhtml.png)
 
+CSS
+![css](./assets/images/headercss.png)
 
-<!-- Pending Screenshots -->
+Second container, I set as -
+* Container B: Body
+    - And then I've set 3 sub-containers to style easily -
+    1. About Me
+        * Descriptive paragraph
+    1. Work
+        * 5 Images (with a featured project larger than the other 4 images)
+        * Subtitles (sits on top of each image)
+        * Hover (opacity changes when mouse hovers on each image)
+    1. Contact Me
+        * Links
+
+HTML
+![html](./assets/images/bodyhtml.png)
+
+CSS
+![css](./assets/images/bodycss1.png)
+![css](./assets/images/bodycss2.png)
+![css](./assets/images/bodycss3.png)
 
 ## Credits
-* Websites I constantly referred to in order to understand how flexbox works:
+Websites I constantly referred to in order to understand how flexbox works:
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 1. https://www.w3schools.com/css/css3_flexbox.asp
 
