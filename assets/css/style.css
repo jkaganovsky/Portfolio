@@ -7,102 +7,21 @@
 }
 
 /* Settings for the header flexbox. */
-header {
-    display: flex;
-    color: #92ccce;
+header .jumbotron {
     background-image: url("https://media.giphy.com/media/dXKLXks7fK9qrRxbHF/giphy.gif");
-    flex-direction: column;
-}
-
-/* Added flexbox to this section in order for the links to float on top of my background image. */
-.header-nav {
-    display: flex;
-    background-color: #31343d;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Style for my name section. */
-header h1 {
-    font-size: 36px;
-    padding: 10px 20px 10px 50px;
-    margin: 10px 0px;
-    background-color: #92ccce;
-    color: #445877;
-}
-
-/* Style for the links. */
-header nav a {
-    color: #92ccce;
-    padding: 20px;
-    flex: 0 1 auto;
-}
-
-/* Created a flexbox so that my portrait and secondary title floats separately from my name
-and links. */
-.header-title {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
 }
 
 /* Added specific styling to my .self-portrait image to look a certain way. */
 .self-portrait {
     object-fit: cover;
     object-position: top;
-    border-radius: 51%;
     width: 150px;
     height: 150px;
-    padding: 20px;
-}
-
-/* Specific styling set for the main header h2 */
-header h2 {
-    color: #31343d;
-    background-color: #92ccce;
-    padding: 10px;
-    font-size: 20px;
-    margin: 0px 20px 20px;
 }
 
 /* Sets the background and padding around the main contents within the body tag. */
-main {
-    display: flex;
-    background-color: #eeeef7;
-    padding: 20px 0px 0px 30px;
-}
-
-/* Sets secondary container that holds the 3 flex-boxed containers (About Me, Work, and Contact Me) */
-.content {
-    flex: 1 0;
-    justify-items: space-between;
-}
-
-.content-main {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.content-main p {
-    text-align: justify;
-    padding-left: 20px;
-    width: 70%;
-}
-
-.content-main h2 {
-    word-spacing: 300px;
-    font-size: 36px;
-    width: 20%;
-    text-align: right;
-    border-right-width: 5px;
-    border-right-color: #31343d;
-    border-right-style: solid;
-    padding: 0px 5px;
-}
-
 .work-content {
-    display: flex;
+    display: flexbox;
     align-items: center;
     width: 70%;
     flex-direction: column;
@@ -173,20 +92,10 @@ h3 {
     padding: 5px 0px 0px 0px;
 }
 
-/* Styling for .contacts section. */
-.contacts {
-    display: flex;
-    width: 70%;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.contacts a {
-    padding: 20px;
-    justify-items: stretch;
-}
-
 /* Added accessibility for mobile users */
 @media screen and (max-width: 600px) {
-    .content: 100%;
+    body {
+        height:100%;
+        width:100%;
+    }
 }
