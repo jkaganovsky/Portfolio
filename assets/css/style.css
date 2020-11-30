@@ -19,25 +19,12 @@ header .jumbotron {
     height: 150px;
 }
 
-/* Sets the background and padding around the main contents within the body tag. */
-.work-content {
-    display: flexbox;
-    align-items: center;
-    width: 70%;
-    flex-direction: column;
-    padding-left: 20px;
-}
-
 /* Style settings for images within the Work section. */
 .featured-project {
     display: flex;
     align-items: stretch;
     position: relative;
     background-color: #eeeef7;
-}
-
-.work-content img:hover {
-    opacity: 1.0;
 }
 
 .featured-project img, .project-info img {
@@ -90,12 +77,4 @@ h3 {
     width: 49%;
     justify-items: center;
     padding: 5px 0px 0px 0px;
-}
-
-/* Added accessibility for mobile users */
-@media screen and (max-width: 600px) {
-    body {
-        height:100%;
-        width:100%;
-    }
 }
