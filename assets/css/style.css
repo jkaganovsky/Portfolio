@@ -1,22 +1,13 @@
-/* Default settings for the entire webpage background. */
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-/* Settings for the header flexbox. */
-header .jumbotron {
-    background-image: url("https://media.giphy.com/media/dXKLXks7fK9qrRxbHF/giphy.gif");
+body {
+    background-image: url("./assets/images/mink-mingle-AlEyuIKuSmc-unsplash.jpg");
 }
 
 /* Added specific styling to my .self-portrait image to look a certain way. */
 .self-portrait {
     object-fit: cover;
     object-position: top;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Style settings for images within the Work section. */
