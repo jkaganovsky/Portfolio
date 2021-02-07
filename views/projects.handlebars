@@ -1,0 +1,165 @@
+<body style="background-color: rgb(47, 53, 133);">
+  {{> nav}}
+
+  <div class="container">
+    <div id="main_area">
+
+      <!-- Slider -->
+        <div class="span12" id="slider">
+
+          <!-- Top part of the slider -->
+          <div class="row">
+            <div class="span8" id="carousel-bounding-box">
+              <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-slide-number="0">
+                    <img src="./assets/images/fooddadabase.png" class="d-block w-100" alt="Food Dad-a-base">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="1">
+                    <img src="./assets/images/kitchenhelper-screenshot.png" class="d-block w-100" alt="Kitchen Helper">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="2">
+                    <img src="./assets/images/weatherdashboard-screenshot.png" class="d-block w-100" alt="Weather Dashboard">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="3">
+                    <img src="./assets/images/dayscheduler-screenshot.png" class="d-block w-100" alt="Day Planner">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="4">
+                    <img src="./assets/images/codingquiz-screenshot.png" class="d-block w-100" alt="Coding Quiz">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="5">
+                    <img src="./assets/images/passwordgenerator-screenshot.jpg" class="d-block w-100" alt="Password Generator">
+                  </div>
+
+                  <div class="carousel-item" data-slide-number="6">
+                    <img src="./assets/images/eatdaburger.png" class="d-block w-100" alt="Burger App">
+                  </div>
+
+                </div><!-- Carousel nav -->
+                  <a class="carousel-control left" data-slide="prev" href="#myCarousel">‹</a>
+                  <a class="carousel-control right" data-slide="next" href="#myCarousel">›</a>
+                </div>
+            </div>
+
+            <div class="span4" id="carousel-text"></div>
+
+            <div id="slide-content" style="display: none;">
+              <div id="slide-content-0">
+                <h2 class="text-white">Food Dad-a-base</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/goantonioUW/food-dadabase">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://food-dad-a-base.herokuapp.com/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-1">
+                <h2 class="text-white">Kitchen Helper</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Kitchen-Helper">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://jkaganovsky.github.io/Kitchen-Helper/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-2">
+                <h2 class="text-white">Weather Dashboard</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Weather-Dashboard">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://jkaganovsky.github.io/Weather-Dashboard/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-3">
+                <h2 class="text-white">Day Planner</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Day-Planner">Github Repository</a></p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://jkaganovsky.github.io/Day-Planner/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-4">
+                <h2 class="text-white">Coding Quiz</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Code-Quiz">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://jkaganovsky.github.io/Code-Quiz/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-5">
+                <h2 class="text-white">Password Generator</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Password-Generator">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://jkaganovsky.github.io/Password-Generator/">Deployed Site</a>
+                </p>
+              </div>
+
+              <div id="slide-content-6">
+                <h2 class="text-white">Eat da Burger</h2>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://github.com/jkaganovsky/Burger">Github Repository</a>
+                </p>
+                <p class="sub-text">
+                  <a class="fs-4" href="https://eat-or-not-burger.herokuapp.com/">Deployed Site</a>
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--/Slider-->
+
+      <div class="row hidden-phone" id="slider-thumbs">
+        <div class="span14">
+
+          <!-- Bottom switcher of slider -->
+          <ul class="thumbnails d-flex justify-content-evenly">
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-0"><img class="img-thumbnail" src="./assets/images/fooddadabase.png"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-1"><img class="img-thumbnail" src="./assets/images/kitchenhelper-screenshot.png"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-2"><img class="img-thumbnail" src="./assets/images/weatherdashboard-screenshot.png"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-3"><img class="img-thumbnail" src="./assets/images/dayscheduler-screenshot.png"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-4"><img class="img-thumbnail" src="./assets/images/codingquiz-screenshot.png"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-5"><img class="img-thumbnail" src="./assets/images/passwordgenerator-screenshot.jpg"></a>
+            </li>
+
+            <li class="span2">
+              <a class="thumbnail" id="carousel-selector-6"><img class="img-thumbnail" src="./assets/images/eatdaburger.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
