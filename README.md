@@ -9,7 +9,7 @@ This project will serve as the Portfolio I will be using for future job prospect
 
 ## Links
 1. [Github Repository](https://github.com/jkaganovsky/Portfolio)
-1. [Heroku]()
+1. [Heroku](https://kaganovsky-portfolio.herokuapp.com/)
 
 ## Packages Used
 1. express
@@ -19,7 +19,7 @@ This project will serve as the Portfolio I will be using for future job prospect
 ## Content
 DEMO
 
-![Preview]()
+![Preview](public/assets/images/portfolio_heroku.gif)
 
 
 ## Credits
