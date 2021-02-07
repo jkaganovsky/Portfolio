@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "## Summary Here you will find my current portfolio as a web developer. All of which will contain past, current, and future projects that I have built and are cotinuously being updated and improved since I started UW Coding Bootcamp in September 2020.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkaganovsky/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkaganovsky/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jkaganovsky/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "node": "^15.7.0",
+    "nodemon": "^2.0.7"
+  }
+}
